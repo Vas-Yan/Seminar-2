@@ -14,3 +14,14 @@ int max = a;
 }
 
 Console.WriteLine(max);
+
+// Второй вариант
+
+int max( int a, int b, int c)
+{
+    if (a>b)
+    if (a>c) return a;
+ if (c>b) return c; else return b;
+}
+
+Console.WriteLine(max(32,-250,27));
